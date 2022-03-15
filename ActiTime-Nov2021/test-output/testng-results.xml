@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-15T15:16:37 IST" name="Suite" finished-at="2022-03-15T15:17:12 IST" duration-ms="34789">
+    <groups>
+    </groups>
+    <test started-at="2022-03-15T15:16:37 IST" name="ChromeTest" finished-at="2022-03-15T15:16:52 IST" duration-ms="15362">
+      <class name="pack123.TestClass12">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="launchbrowser" finished-at="2022-03-15T15:16:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="loginToApplication" finished-at="2022-03-15T15:16:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="testA()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="testA" finished-at="2022-03-15T15:16:40 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="logOute" finished-at="2022-03-15T15:16:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="loginToApplication" finished-at="2022-03-15T15:16:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="testB()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="testB" finished-at="2022-03-15T15:16:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="logOute" finished-at="2022-03-15T15:16:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method signature="testC()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="testC" finished-at="2022-03-15T15:16:40 IST" depends-on-methods="pack123.TestClass12.testB" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="loginToApplication" finished-at="2022-03-15T15:16:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="logOute" finished-at="2022-03-15T15:16:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method is-config="true" signature="closeBrowsere()[pri:0, instance:pack123.TestClass12@28f3b248]" started-at="2022-03-15T15:16:40 IST" name="closeBrowsere" finished-at="2022-03-15T15:16:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsere -->
+      </class> <!-- pack123.TestClass12 -->
+      <class name="pack123.TestClass123">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:37 IST" name="launchbrowser" finished-at="2022-03-15T15:16:40 IST" duration-ms="2697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:40 IST" name="login" finished-at="2022-03-15T15:16:40 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:40 IST" name="loginToApplication" finished-at="2022-03-15T15:16:43 IST" duration-ms="3015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTab()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:43 IST" name="verifyUserTab" finished-at="2022-03-15T15:16:46 IST" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:46 IST" name="logOut" finished-at="2022-03-15T15:16:50 IST" duration-ms="4462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:50 IST" name="closeBrowser" finished-at="2022-03-15T15:16:52 IST" duration-ms="2011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack123.TestClass123@fba92d3]" started-at="2022-03-15T15:16:52 IST" name="close" finished-at="2022-03-15T15:16:52 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pack123.TestClass123 -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-03-15T15:16:52 IST" name="Firefox" finished-at="2022-03-15T15:17:12 IST" duration-ms="19397">
+      <class name="pack123.TestClass12">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="launchbrowser" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="loginToApplication" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="testA()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="testA" finished-at="2022-03-15T15:16:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="logOute" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="loginToApplication" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="testB()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="testB" finished-at="2022-03-15T15:16:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="logOute" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method signature="testC()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="testC" finished-at="2022-03-15T15:16:58 IST" depends-on-methods="pack123.TestClass12.testB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="loginToApplication" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="logOute()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="logOute" finished-at="2022-03-15T15:16:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOute -->
+        <test-method is-config="true" signature="closeBrowsere()[pri:0, instance:pack123.TestClass12@c88a337]" started-at="2022-03-15T15:16:58 IST" name="closeBrowsere" finished-at="2022-03-15T15:16:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowsere -->
+      </class> <!-- pack123.TestClass12 -->
+      <class name="pack123.TestClass123">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:16:52 IST" name="launchbrowser" finished-at="2022-03-15T15:16:58 IST" duration-ms="5476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:16:58 IST" name="login" finished-at="2022-03-15T15:16:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:16:58 IST" name="loginToApplication" finished-at="2022-03-15T15:17:02 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="verifyUserTab()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:17:02 IST" name="verifyUserTab" finished-at="2022-03-15T15:17:04 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserTab -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:17:04 IST" name="logOut" finished-at="2022-03-15T15:17:08 IST" duration-ms="4506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:17:08 IST" name="closeBrowser" finished-at="2022-03-15T15:17:10 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:pack123.TestClass123@1de76cc7]" started-at="2022-03-15T15:17:10 IST" name="close" finished-at="2022-03-15T15:17:12 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- pack123.TestClass123 -->
+    </test> <!-- Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
