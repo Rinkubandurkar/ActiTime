@@ -18,6 +18,7 @@ public class Utility {
 		SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyyHHmmSS");
 		Date date = new Date();
 		String screenshotNameFormat = testID+" " + formatter.format(date);
+		System.out.println("Getting Screenshot");
 		
 		File screenshot =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileHandler.copy(screenshot,new File("C:\\Users\\lenovo\\Desktop\\New folder\\" +screenshotNameFormat +".png"));
